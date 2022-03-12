@@ -21,9 +21,17 @@
     'Welcome back, Andrew'
 */
 
-const greatsUser = username => (`Welcome back, ${username}`) 
 
-greatsUser('Andrew')
+
+const greetsUser = (callback) => callback(greetsUser)
+
+
+greetsUser(username => {
+    console.log ('Welcome back, Andrew')
+})    
+
+
+
 
 
 
@@ -50,7 +58,7 @@ greatsUser('Andrew')
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
+canWeDeliver ()
 
 
 
