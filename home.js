@@ -58,8 +58,20 @@ greetsUser(username => {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-canWeDeliver ()
-
+const canWeDeliver = (array, deliveryAreaZipCodes, callback) => {
+    if (array.includes(deliveryAreaZipCodes) === true) {
+        callback (true)
+    }else {
+        callback (false)
+    }
+} 
+canWeDeliver(deliveryAreaZipCodes,'// con85205', result => {
+    if(result === true){
+        console.log(`Your're in our delivery zone!`)
+    }else {
+        console.log(`Sorry, we can't deliver to that address`)
+    }
+})
 
 
 /* 
