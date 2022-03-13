@@ -74,8 +74,8 @@ const zipCode = [85205, 85204, 85203, 85213, 85206]
 //     }
 // })
 
- console.log (zipCode.includes(85205));
- // might work better
+ //console.log (zipCode.includes(85205));
+ // might work better should come out true
 
 /* 
     Problem 2 Continued
@@ -94,8 +94,8 @@ const zipCode = [85205, 85204, 85203, 85213, 85206]
     Name your new function `canWeDeliverTwo`.
 */
 
-const canWeDeliver2 = zipCode.filter(85205)=
-console.log (canWeDeliver2)
+//const canWeDeliver2 = zipCode.filter(85205)=
+//console.log (canWeDeliver2)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -131,8 +131,8 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-const noNumber15 = deals.replace('15', '10')
-console.log(noNumber15)
+
+console.log(deals.replace('15% Off!', '10% Off!'));
 
 
 
