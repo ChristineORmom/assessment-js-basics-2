@@ -33,7 +33,7 @@
 let pizza = {
     pizzaName: "Cheese",
     price: 15,
-    category: "regular crust",
+    category: 'regular crust',
     popularity: 10,
     rating: 5,
     tags: ['small', 'medium', 'large']
@@ -49,7 +49,7 @@ let pizza = {
     Use dot notation to access the value.
 */
 
-//CODE HERE
+console.log(pizza.pizzaName)
 
 
 /*
@@ -59,7 +59,7 @@ let pizza = {
     get the value.
 */
 
-//CODE HERE
+console.log(pizza[1])
 
 
 /*
@@ -69,7 +69,7 @@ let pizza = {
     Print the value of your new price variable.
 */
 
-//CODE HERE
+let {price} = pizza
 
 
 /*
@@ -79,7 +79,9 @@ let pizza = {
     Print the value of your category variable. 
 */
 
-//CODE HERE
+let {popularity} = pizza
+
+console.log(10.(popularity))
 
 
 //////////////////PROBLEM 3////////////////////
