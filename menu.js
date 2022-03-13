@@ -183,7 +183,8 @@ foodArr = {
     Return the filtered array from the entire function
 */
 
-//CODE HERE
+filterByPopularity ('garlic bread sticks', 'cheese bread sticks', 'cinnamon bread sticks')
+
 
 
 /*
