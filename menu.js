@@ -30,7 +30,14 @@
     'kids'
 */
 
-//CODE HERE
+let pizza = {
+    pizzaName: "Cheese",
+    price: 15,
+    category: "regular crust",
+    popularity: 10,
+    rating: 5,
+    tags: ['small', 'medium', 'large']
+}
 
 
 
