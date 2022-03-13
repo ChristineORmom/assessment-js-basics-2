@@ -131,7 +131,8 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-//CODE HERE
+const noNumber15 = deals.replace('15', '10')
+console.log(noNumber15)
 
 
 
