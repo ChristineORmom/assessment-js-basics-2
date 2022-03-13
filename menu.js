@@ -96,7 +96,31 @@ console.log(10.(popularity))
     data in some functions that you'll write.
 */
 
-foodArr = ['garlic bread sticks', 'cheese bread sticks', 'cinnamon bread sticks', 'mozzarella sticks', 'sugar cookies']
+foodArr = {
+    foodName1:'garlic bread sticks',
+    price: 5,
+    popularity: 10,
+    rating: 5} ,
+
+   {foodName2:'cheese bread sticks',
+    price: 5,
+    popularity: 8},
+    rating: 3} ,
+
+    foodName3:'cinnamon bread sticks',
+    price: 5,
+    popularity: 9,
+    rating: 5} ,
+
+    foodName4:'mozzarella sticks',
+    price: 5,
+    popularity: 9,
+    rating: 5},
+
+    foodName5:'sugar cookies',
+    price: 5,
+    popularity: 8,
+    rating: 4},
 
 
 
