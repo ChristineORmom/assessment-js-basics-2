@@ -132,7 +132,7 @@ const deals = [
 */
 
 
-console.log(deals.replace('15% Off!', '10% Off!'));
+
 
 
 
