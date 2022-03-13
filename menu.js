@@ -96,7 +96,7 @@ console.log(10.(popularity))
     data in some functions that you'll write.
 */
 
-//CODE HERE
+foodArr = ['garlic bread sticks', 'cheese bread sticks', 'cinnamon bread sticks', 'mozzarella sticks', 'sugar cookies']
 
 
 
@@ -114,7 +114,9 @@ console.log(10.(popularity))
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+ const filteredFood = foodArr.filter(function(element){
+     return element === sticks
+ })
 
 
 
