@@ -58,22 +58,24 @@ greetsUser(username => {
 
 const zipCode = [85205, 85204, 85203, 85213, 85206]
 
-const canWeDeliver = (array,zipCode, callback) => {
-    if (array.includes(zipCode) === true) {
-        callback(true)
-    } else {
-        callback(false)
-    }
-}
+// const canWeDeliver = (array,zipCode, callback) => {
+//     if (array.includes(zipCode) === true) {
+//         callback(true)
+//     } else {
+//         callback(false)
+//     }
+// }
 
-contains(names, '// con85205', result => {
-    if(result === true){
-        console.log(`You're in our delivery zone!`)
-    } else {
-        console.log(`Sorry, we can't deliver to that address`)
-    }
-})
+// contains(names, '// con85205', result => {
+//     if(result === true){
+//         console.log(`You're in our delivery zone!`)
+//     } else {
+//         console.log(`Sorry, we can't deliver to that address`)
+//     }
+// })
 
+ console.log (zipCode.includes(85205));
+ // might work better
 
 /* 
     Problem 2 Continued
@@ -92,7 +94,8 @@ contains(names, '// con85205', result => {
     Name your new function `canWeDeliverTwo`.
 */
 
-
+const canWeDeliver2 = zipCode.filter(85205)=
+console.log (canWeDeliver2)
 
 
 //////////////////PROBLEM 3////////////////////
