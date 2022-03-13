@@ -56,19 +56,20 @@ greetsUser(username => {
         // `You're in our delivery zone!`
 */
 
-const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
+const zipCode = [85205, 85204, 85203, 85213, 85206]
 
-const canWeDeliver = (array, deliveryAreaZipCodes, callback) => {
-    if (array.includes(deliveryAreaZipCodes) === true) {
-        callback (true)
-    }else {
-        callback (false)
+const canWeDeliver = (array,zipCode, callback) => {
+    if (array.includes(zipCode) === true) {
+        callback(true)
+    } else {
+        callback(false)
     }
-} 
-canWeDeliver(deliveryAreaZipCodes,'// con85205', result => {
+}
+
+contains(names, '// con85205', result => {
     if(result === true){
-        console.log(`Your're in our delivery zone!`)
-    }else {
+        console.log(`You're in our delivery zone!`)
+    } else {
         console.log(`Sorry, we can't deliver to that address`)
     }
 })
@@ -91,7 +92,7 @@ canWeDeliver(deliveryAreaZipCodes,'// con85205', result => {
     Name your new function `canWeDeliverTwo`.
 */
 
-// CODE HERE
+
 
 
 //////////////////PROBLEM 3////////////////////
