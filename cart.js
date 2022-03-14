@@ -33,7 +33,9 @@ const cart = [
     }
 ]
 
-//CODE HERE
+const summedFood = cart.reduce((acc, curr) => acc + curr)
+
+console.log(reduce)
 
 // const summedPrice = cart.reduce(/* CALLBACK HERE */)
 
