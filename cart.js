@@ -33,7 +33,7 @@ const cart = [
     }
 ]
 
-const summedFood = cart.reduce((acc, curr) => acc + curr)
+const reduce = cart.reduce((acc, curr) => acc + curr)
 
 console.log(reduce)
 
