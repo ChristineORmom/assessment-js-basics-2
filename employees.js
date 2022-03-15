@@ -19,7 +19,17 @@
     stored on the object.
 */
 
-//CODE HERE
+class Employee {
+    constructor(name, shifts){
+        this.name
+        this.Employee
+        this.shifts
+    }
+    getSchedule() {
+        console.log (`${Employee} works on ${shifts}`)
+
+    }
+}
 
 
 
