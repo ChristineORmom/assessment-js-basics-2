@@ -131,8 +131,8 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-
-
+const replaceAll = title.replaceAll('15% Off!', '10% Off!')
+console.log(repleaceAll)
 
 
 
@@ -149,4 +149,5 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+const replace = desc.replace('March', 'April')
+console.log(replace)
