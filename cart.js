@@ -33,7 +33,7 @@ const cart = [
     }
 ]
 
-const summedPrice = cart.reduce((acc, curr) => acc + curr.price, cart)
+const summedPrice = cart.reduce((acc, curr) => acc + curr.price)
 console.log(summedPrice)
 
 
@@ -52,7 +52,8 @@ console.log(summedPrice)
     decimals, for example: .06 for a 6% tax.
 */
 
-//CODE HERE
+const calcFinalPrice = tax.map(cartTotal => (cartTotal * .06) - couponValue)
+console.log(calcFinalPrice)
 
 
 
