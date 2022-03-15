@@ -97,27 +97,27 @@ console.log(10.(popularity))
 */
 
 foodArr = {
-    foodName1:'garlic bread sticks',
+    foodName:'garlic bread sticks',
     price: 5,
     popularity: 10,
     rating: 5} ,
 
-   {foodName2:'cheese bread sticks',
+   {foodName:'cheese bread sticks',
     price: 5,
     popularity: 8},
     rating: 3} ,
 
-    foodName3:'cinnamon bread sticks',
+    foodName:'cinnamon bread sticks',
     price: 5,
     popularity: 9,
     rating: 5} ,
 
-    foodName4:'mozzarella sticks',
+    foodName:'mozzarella sticks',
     price: 5,
     popularity: 9,
     rating: 5},
 
-    foodName5:'sugar cookies',
+    foodName:'sugar cookies',
     price: 5,
     popularity: 8,
     rating: 4},
@@ -183,7 +183,10 @@ foodArr = {
     Return the filtered array from the entire function
 */
 
-filterByPopularity ('garlic bread sticks', 'cheese bread sticks', 'cinnamon bread sticks')
+filterByProperty = ('rating' , 'popularity', 'price')
+
+const filterByProperty = foodArr.filter(element => element === 5) 
+console.log(filterByProperty)
 
 
 
@@ -194,4 +197,6 @@ filterByPopularity ('garlic bread sticks', 'cheese bread sticks', 'cinnamon brea
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+foodArr.forEach((element, i) => console.log (`${element}` === `${5}`))
+
+//not too sure if this is what problem number 5 wants. 
