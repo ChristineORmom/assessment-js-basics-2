@@ -78,7 +78,9 @@ console.log(calcFinalPrice)
 */
 
 /*
-    TEXT ANSWER HERE
+    Menu should include something for that customer to drink. Menu also includes a per cup 
+    charge for re-fills at a soda fountain. Soda fountain can contain as many selections as 
+    build in to fountain. 
 
 */
 
@@ -87,4 +89,6 @@ console.log(calcFinalPrice)
     guidelines.
 */
 
-//CODE HERE
+cart.name = 'beverage', 
+cart.price = 1.99
+
