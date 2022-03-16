@@ -159,3 +159,6 @@ manager.addEmployee('Coach')
 */
 
 getEmployees.manager
+
+// Seems like all this info could have been thought out better in a shorter class. Looks like 
+//a big mess that should be re written.
