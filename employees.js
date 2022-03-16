@@ -29,6 +29,10 @@ class Employee {
         console.log (`${Employee} works on ${shifts}`)
 
     }
+    empOne () {
+        this.Jess = true
+        console.log('weekday mornings, weekday afernoons')
+    }
 }
 
 
@@ -41,16 +45,16 @@ class Employee {
     up your own:
     name: Jess
     shifts: weekday mornings, weekday afternoons
-*/
+ /*   
 
-//CODE HERE
+
 
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
-//CODE HERE
+jess.getSchedule()
 
 
 /*
@@ -65,7 +69,7 @@ class Employee {
     dot or bracket notation.
 */
 
-//CODE HERE
+    
 
 
 
